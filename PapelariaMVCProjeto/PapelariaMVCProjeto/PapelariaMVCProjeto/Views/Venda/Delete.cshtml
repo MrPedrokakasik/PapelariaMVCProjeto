@@ -1,0 +1,186 @@
+﻿@model PapelariaMVCProjeto.Models.Venda
+
+<style>
+    .page-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 1rem 0 24px;
+    }
+
+    .back-btn {
+        font-size: 13px;
+        color: #6b7280;
+        text-decoration: none;
+        padding: 6px 10px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+    }
+
+        .back-btn:hover {
+            background: #f9fafb;
+        }
+
+    .page-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .alert-card {
+        background: #fff;
+        border: 1px solid #F09595;
+        border-radius: 12px;
+        padding: 28px;
+    }
+
+    .alert-icon {
+        width: 48px;
+        height: 48px;
+        background: #FCEBEB;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+
+    .alert-title {
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 6px;
+    }
+
+    .alert-desc {
+        font-size: 14px;
+        color: #6b7280;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .venda-info {
+        background: #f9fafb;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+
+    .venda-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 0;
+        border-bottom: 1px solid #f3f4f6;
+        font-size: 14px;
+    }
+
+        .venda-row:last-child {
+            border-bottom: none;
+        }
+
+    .venda-label {
+        color: #6b7280;
+    }
+
+    .venda-value {
+        font-weight: 500;
+    }
+
+    .estoque-aviso {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: #E1F5EE;
+        border: 1px solid #9FE1CB;
+        border-radius: 8px;
+        padding: 12px 14px;
+        font-size: 13px;
+        color: #085041;
+        margin-bottom: 24px;
+    }
+
+    .form-footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        padding-top: 20px;
+        border-top: 1px solid #e5e7eb;
+    }
+
+    .btn-cancelar {
+        padding: 9px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        background: transparent;
+        color: #6b7280;
+        text-decoration: none;
+    }
+
+        .btn-cancelar:hover {
+            background: #f9fafb;
+        }
+
+    .btn-excluir {
+        padding: 9px 24px;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        background: #E24B4A;
+        color: #fff;
+        cursor: pointer;
+    }
+
+        .btn-excluir:hover {
+            background: #A32D2D;
+        }
+</style>
+
+<div class="page-header">
+    @Html.ActionLink("← Voltar", "Index", null, new { @class = "back-btn" })
+    <span class="page-title">Cancelar Venda</span>
+</div>
+
+<div class="alert-card">
+    <div class="alert-icon">⚠️</div>
+    <p class="alert-title">Confirmar cancelamento</p>
+    <p class="alert-desc">Esta ação é permanente e não poderá ser desfeita. A venda será removida do sistema.</p>
+
+    <div class="venda-info">
+        <div class="venda-row">
+            <span class="venda-label">Produto</span>
+            <span class="venda-value">@Model.Produto.Nome</span>
+        </div>
+        <div class="venda-row">
+            <span class="venda-label">Vendedor</span>
+            <span class="venda-value">@Model.Vendedor.Nome</span>
+        </div>
+        <div class="venda-row">
+            <span class="venda-label">Quantidade</span>
+            <span class="venda-value">@Model.Quantidade</span>
+        </div>
+        <div class="venda-row">
+            <span class="venda-label">Total</span>
+            <span class="venda-value">R$ @Model.Total.ToString("F2")</span>
+        </div>
+        <div class="venda-row">
+            <span class="venda-label">Data</span>
+            <span class="venda-value">@Model.Data.ToString("dd/MM/yyyy HH:mm")</span>
+        </div>
+    </div>
+
+    <div class="estoque-aviso">
+        ♻️ A quantidade de <strong style="margin: 0 4px;">@Model.Quantidade unidade(s)</strong> de <strong style="margin: 0 4px;">@Model.Produto.Nome</strong> será devolvida ao estoque.
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-footer">
+            @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn-cancelar" })
+            <button type="submit" class="btn-excluir">Sim, cancelar venda</button>
+        </div>
+    }
+</div>

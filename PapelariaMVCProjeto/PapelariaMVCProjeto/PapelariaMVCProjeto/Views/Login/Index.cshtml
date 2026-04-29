@@ -1,0 +1,150 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelaria Central — Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #f3f4f6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+
+        .login-card {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 40px 36px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .login-logo {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .login-logo-icon {
+            width: 52px;
+            height: 52px;
+            background: #E6F1FB;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin: 0 auto 12px;
+        }
+
+        .login-logo-title {
+            font-size: 20px;
+            font-weight: 500;
+            color: #111;
+        }
+
+        .login-logo-sub {
+            font-size: 13px;
+            color: #6b7280;
+            margin-top: 4px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: #6b7280;
+            margin-bottom: 6px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px 12px;
+            font-size: 14px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            outline: none;
+        }
+
+            .form-control:focus {
+                border-color: #185FA5;
+                box-shadow: 0 0 0 3px rgba(24,95,165,0.12);
+            }
+
+        .btn-login {
+            width: 100%;
+            padding: 11px;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            border-radius: 8px;
+            background: #185FA5;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+            .btn-login:hover {
+                background: #042C53;
+            }
+
+        .erro-box {
+            background: #FCEBEB;
+            border: 1px solid #F09595;
+            border-radius: 8px;
+            padding: 10px 14px;
+            font-size: 13px;
+            color: #A32D2D;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <div class="login-logo">
+            <div class="login-logo-icon">📋</div>
+            <div class="login-logo-title">Papelaria Central</div>
+            <div class="login-logo-sub">Acesse sua conta para continuar</div>
+        </div>
+
+        @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            if (ViewBag.Erro != null)
+            {
+                <div class="erro-box">⚠️ @ViewBag.Erro</div>
+            }
+
+            <div class="form-group">
+                <label class="form-label">Usuário</label>
+                <input class="form-control" type="text" name="usuario" placeholder="Digite seu usuário" />
+            </div>
+            <div class="form-group">
+                <label class="form-label">Senha</label>
+                <input class="form-control" type="password" name="senha" placeholder="••••••••" />
+            </div>
+            <button type="submit" class="btn-login">Entrar</button>
+        }
+    </div>
+</body>
+</html>

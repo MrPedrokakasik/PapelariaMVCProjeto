@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|c:\\users\\fernando\\source\\repos\\papelariamvcprojeto\\papelariamvcprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\vendedor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\vendedor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\vendedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\vendedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\venda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\venda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\models\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\venda\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\venda\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\produto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\produto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\produto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\produto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\models\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\models\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\migrations\\202603312016551_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\migrations\\202603312016551_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\papelariamvcprojeto\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FE8D9A83-3B8E-4562-AE03-FAE18A117513}|PapelariaMVCProjeto\\PapelariaMVCProjeto.csproj|solutionrelative:papelariamvcprojeto\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T21:10:02.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T21:04:40.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Venda\\Create.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Venda\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Venda\\Create.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Venda\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:37:12.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Venda\\Index.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Venda\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Venda\\Index.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Venda\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:37:03.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Vendedor\\Create.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Vendedor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Vendedor\\Create.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Vendedor\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:38:01.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Vendedor\\Index.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Vendedor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Vendedor\\Index.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Vendedor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:37:52.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Index.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Produto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Index.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Produto\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:30:43.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VendedorController.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\VendedorController.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Controllers\\VendedorController.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\VendedorController.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Controllers\\VendedorController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:19:23.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VendaController.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\VendaController.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Controllers\\VendaController.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\VendaController.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Controllers\\VendaController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:19:53.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Venda.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Venda.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Models\\Venda.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Venda.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Models\\Venda.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:50:37.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:19:25.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:55:09.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vendedor.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Vendedor.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Models\\Vendedor.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Vendedor.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Models\\Vendedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:14:40.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Produto\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Edit.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Produto\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:31:27.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Create.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Produto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Create.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Produto\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:31:05.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Produto\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Produto\\Delete.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Produto\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:31:38.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:54:48.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T20:48:34.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Contexto.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Contexto.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Models\\Contexto.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Contexto.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Models\\Contexto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:15:26.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Models\\Produto.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:14:19.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:18:41.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "202603312016551_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Migrations\\202603312016551_Inicial.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Migrations\\202603312016551_Inicial.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Migrations\\202603312016551_Inicial.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Migrations\\202603312016551_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:17:13.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:16:27.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Web.config",
+              "RelativeDocumentMoniker": "PapelariaMVCProjeto\\Web.config",
+              "ToolTip": "C:\\Users\\Fernando\\source\\repos\\PapelariaMVCProjeto\\PapelariaMVCProjeto\\Web.config",
+              "RelativeToolTip": "PapelariaMVCProjeto\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-31T20:15:42.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
