@@ -1,0 +1,228 @@
+﻿@model PapelariaMVCProjeto.Models.Produto
+
+<style>
+    .page-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 1rem 0 24px;
+    }
+
+    .back-btn {
+        font-size: 13px;
+        color: #6b7280;
+        text-decoration: none;
+        padding: 6px 10px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+    }
+
+        .back-btn:hover {
+            background: #f9fafb;
+        }
+
+    .page-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .form-card {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 28px;
+    }
+
+    .section-label {
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #6b7280;
+        margin-bottom: 16px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        color: #6b7280;
+        margin-bottom: 6px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 9px 12px;
+        font-size: 14px;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        background: #fff;
+        outline: none;
+    }
+
+        .form-control:focus {
+            border-color: #185FA5;
+            box-shadow: 0 0 0 3px rgba(24,95,165,0.12);
+        }
+
+    textarea.form-control {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .form-footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-top: 28px;
+        padding-top: 20px;
+        border-top: 1px solid #e5e7eb;
+    }
+
+    .btn-cancelar {
+        padding: 9px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        background: transparent;
+        color: #6b7280;
+        text-decoration: none;
+    }
+
+        .btn-cancelar:hover {
+            background: #f9fafb;
+        }
+
+    .btn-salvar {
+        padding: 9px 24px;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        background: #185FA5;
+        color: #fff;
+        cursor: pointer;
+    }
+
+        .btn-salvar:hover {
+            background: #042C53;
+        }
+
+    .field-error {
+        color: #E24B4A;
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .upload-area {
+        border: 2px dashed #d1d5db;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        color: #6b7280;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+        .upload-area:hover {
+            border-color: #185FA5;
+            background: #f0f7ff;
+        }
+</style>
+
+<div class="page-header">
+    @Html.ActionLink("← Voltar", "Index", null, new { @class = "back-btn" })
+    <span class="page-title">Novo Produto</span>
+</div>
+
+<div class="form-card">
+    @using (Html.BeginForm("Create", "Produto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <p class="section-label">Informações básicas</p>
+
+        <div class="form-group">
+            <label class="form-label">Nome do produto</label>
+            @Html.TextBoxFor(m => m.Nome, new { @class = "form-control", placeholder = "Ex: Caderno Espiral A4" })
+            @Html.ValidationMessageFor(m => m.Nome, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label">Preço (R$)</label>
+                @Html.TextBoxFor(m => m.Preco, new { @class = "form-control", placeholder = "0,00" })
+                @Html.ValidationMessageFor(m => m.Preco, "", new { @class = "field-error" })
+            </div>
+            <div class="form-group">
+                <label class="form-label">Quantidade em estoque</label>
+                @Html.TextBoxFor(m => m.Quantidade, new { @class = "form-control", placeholder = "0" })
+                @Html.ValidationMessageFor(m => m.Quantidade, "", new { @class = "field-error" })
+            </div>
+        </div>
+
+        <p class="section-label" style="margin-top: 8px;">Detalhes do produto</p>
+
+        <div class="form-group">
+            <label class="form-label">Descrição</label>
+            @Html.TextAreaFor(m => m.Descricao, new { @class = "form-control", placeholder = "Descreva o produto..." })
+            @Html.ValidationMessageFor(m => m.Descricao, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label">Tamanho</label>
+                @Html.TextBoxFor(m => m.Tamanho, new { @class = "form-control", placeholder = "Ex: A4, 15cm, G" })
+                @Html.ValidationMessageFor(m => m.Tamanho, "", new { @class = "field-error" })
+            </div>
+            <div class="form-group">
+                <label class="form-label">Peso</label>
+                @Html.TextBoxFor(m => m.Peso, new { @class = "form-control", placeholder = "Ex: 200g, 1kg" })
+                @Html.ValidationMessageFor(m => m.Peso, "", new { @class = "field-error" })
+            </div>
+        </div>
+
+        <p class="section-label" style="margin-top: 8px;">Imagem do produto</p>
+
+        <div class="form-group">
+            <label class="form-label">Foto do produto</label>
+            <div class="upload-area" onclick="document.getElementById('imagemFile').click()">
+                📷 Clique para selecionar uma imagem
+            </div>
+            <input type="file" id="imagemFile" name="imagemFile" accept="image/*" style="display:none" onchange="mostrarPreview(this)" />
+            <img id="preview" src="#" style="display:none; margin-top:12px; max-height:180px; border-radius:8px; border:1px solid #e5e7eb;" />
+        </div>
+
+        <div class="form-footer">
+            @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn-cancelar" })
+            <button type="submit" class="btn-salvar">Salvar produto</button>
+        </div>
+    }
+</div>
+
+<script>
+    function mostrarPreview(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                var preview = document.getElementById('preview');
+                preview.src = e.target.result;
+                preview.style.display = 'block';
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>

@@ -1,0 +1,247 @@
+﻿@model IEnumerable<PapelariaMVCProjeto.Models.Venda>
+
+<style>
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding-top: 1rem;
+    }
+
+    .titulo {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .btn-novo {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 16px;
+        border: 1px solid #9FE1CB;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #085041;
+        background: #E1F5EE;
+        text-decoration: none;
+    }
+
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-bottom: 24px;
+    }
+
+    .stat {
+        background: #f9fafb;
+        border-radius: 8px;
+        padding: 16px;
+    }
+
+    .stat-num {
+        font-size: 22px;
+        font-weight: 500;
+        color: #0F6E56;
+    }
+
+    .stat-label {
+        font-size: 12px;
+        color: #6b7280;
+        margin-top: 2px;
+    }
+
+    .card-table {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    thead th {
+        background: #f9fafb;
+        padding: 12px 16px;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 500;
+        color: #6b7280;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #f3f4f6;
+    }
+
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+
+        tbody tr:hover {
+            background: #f9fafb;
+        }
+
+    tbody td {
+        padding: 13px 16px;
+        vertical-align: middle;
+    }
+
+    .td-total {
+        font-weight: 500;
+        color: #0F6E56;
+    }
+
+    .td-data {
+        font-size: 13px;
+        color: #6b7280;
+    }
+
+    .badge-qty {
+        display: inline-block;
+        padding: 2px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        background: #f3f4f6;
+        color: #6b7280;
+        border: 1px solid #e5e7eb;
+    }
+
+    .avatar {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .avatar-circle {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #E6F1FB;
+        color: #185FA5;
+        font-size: 11px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-excluir-row {
+        font-size: 12px;
+        font-weight: 500;
+        color: #E24B4A;
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 1px solid #F09595;
+        border-radius: 8px;
+    }
+
+        .btn-excluir-row:hover {
+            background: #FCEBEB;
+        }
+
+    .produto-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .produto-thumb {
+        width: 36px;
+        height: 36px;
+        object-fit: cover;
+        border-radius: 6px;
+        border: 1px solid #e5e7eb;
+    }
+
+    .produto-thumb-vazio {
+        width: 36px;
+        height: 36px;
+        border-radius: 6px;
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+</style>
+
+<div class="header">
+    <span class="titulo">Vendas</span>
+    @Html.ActionLink("+ Nova Venda", "Create", null, new { @class = "btn-novo" })
+</div>
+
+<div class="stats">
+    <div class="stat">
+        <div class="stat-num">@Model.Count()</div>
+        <div class="stat-label">Vendas realizadas</div>
+    </div>
+    <div class="stat">
+        <div class="stat-num">R$ @Model.Sum(v => v.Total).ToString("F2")</div>
+        <div class="stat-label">Total faturado</div>
+    </div>
+    <div class="stat">
+        <div class="stat-num">@Model.Sum(v => v.Quantidade)</div>
+        <div class="stat-label">Itens vendidos</div>
+    </div>
+</div>
+
+<div class="card-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Vendedor</th>
+                <th>Qtd</th>
+                <th>Total</th>
+                <th>Data</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <div class="produto-row">
+                            @if (!string.IsNullOrEmpty(item.Produto.Imagem))
+                            {
+                                <img src="/Content/Imagens/@item.Produto.Imagem" class="produto-thumb" alt="@item.Produto.Nome" />
+                            }
+                            else
+                            {
+                                <div class="produto-thumb-vazio">📦</div>
+                            }
+                            <span style="font-weight:500">@item.Produto.Nome</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="avatar">
+                            <div class="avatar-circle">
+                                @(item.Vendedor.Nome.Length >= 2
+                                    ? item.Vendedor.Nome.Substring(0, 1).ToUpper() + item.Vendedor.Nome.Split(' ').Last().Substring(0, 1).ToUpper()
+                                    : item.Vendedor.Nome.Substring(0, 1).ToUpper())
+                            </div>
+                            @item.Vendedor.Nome
+                        </div>
+                    </td>
+                    <td><span class="badge-qty">@item.Quantidade</span></td>
+                    <td class="td-total">R$ @item.Total.ToString("F2")</td>
+                    <td class="td-data">@item.Data.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td style="text-align: right;">
+                        @Html.ActionLink("Cancelar", "Delete", new { id = item.Id }, new { @class = "btn-excluir-row" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

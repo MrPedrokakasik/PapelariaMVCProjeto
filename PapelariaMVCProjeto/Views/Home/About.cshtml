@@ -1,0 +1,105 @@
+﻿@{
+    ViewBag.Title = "Sobre";
+}
+
+<style>
+    .page-header {
+        margin: 1rem 0 28px;
+    }
+
+    .page-title {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .section-card {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 28px;
+        margin-bottom: 16px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .section-text {
+        font-size: 14px;
+        color: #6b7280;
+        line-height: 1.7;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-top: 24px;
+    }
+
+    .info-item {
+        background: #f9fafb;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .info-num {
+        font-size: 22px;
+        font-weight: 500;
+        color: #185FA5;
+    }
+
+    .info-label {
+        font-size: 12px;
+        color: #6b7280;
+        margin-top: 2px;
+    }
+</style>
+
+<div class="page-header">
+    <span class="page-title">Sobre o Sistema</span>
+</div>
+
+<div class="section-card">
+    <p class="section-title">O que é a NossaPapelaria?</p>
+    <p class="section-text">
+        A NossaPapelaria é um sistema de gestão desenvolvido para facilitar o controle de estoque,
+        registro de vendas e gerenciamento da equipe de vendedores. Tudo em uma interface simples,
+        rápida e organizada.
+    </p>
+</div>
+
+<div class="section-card">
+    <p class="section-title">Funcionalidades</p>
+    <p class="section-text">
+        O sistema conta com cadastro e controle de produtos com atualização automática de estoque,
+        registro de vendas com cálculo automático do total, gerenciamento de vendedores com limite
+        de 4 colaboradores ativos e painel inicial com resumo geral do negócio.
+    </p>
+</div>
+
+<div class="section-card">
+    <p class="section-title">Tecnologias utilizadas</p>
+    <p class="section-text">
+        Desenvolvido com ASP.NET MVC, Entity Framework Code First e SQL Server.
+        Interface construída com HTML, CSS e Razor Views.
+    </p>
+</div>
+
+<div class="info-grid">
+    <div class="info-item">
+        <div class="info-num">📦</div>
+        <div class="info-label">Controle de estoque</div>
+    </div>
+    <div class="info-item">
+        <div class="info-num">💰</div>
+        <div class="info-label">Registro de vendas</div>
+    </div>
+    <div class="info-item">
+        <div class="info-num">👨‍💼</div>
+        <div class="info-label">Gestão de vendedores</div>
+    </div>
+</div>

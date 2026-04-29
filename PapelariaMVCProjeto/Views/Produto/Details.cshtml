@@ -1,0 +1,208 @@
+﻿@model PapelariaMVCProjeto.Models.Produto
+
+<style>
+    .page-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 1rem 0 24px;
+    }
+
+    .back-btn {
+        font-size: 13px;
+        color: #6b7280;
+        text-decoration: none;
+        padding: 6px 10px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+    }
+
+        .back-btn:hover {
+            background: #f9fafb;
+        }
+
+    .page-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .detail-card {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 28px;
+    }
+
+    .section-label {
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #6b7280;
+        margin-bottom: 16px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .detail-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .detail-item {
+        background: #f9fafb;
+        border-radius: 8px;
+        padding: 14px 16px;
+    }
+
+    .detail-label {
+        font-size: 12px;
+        color: #6b7280;
+        margin-bottom: 4px;
+    }
+
+    .detail-value {
+        font-size: 15px;
+        font-weight: 500;
+        color: #111;
+    }
+
+        .detail-value.preco {
+            color: #185FA5;
+        }
+
+        .detail-value.estoque {
+            color: #0F6E56;
+        }
+
+    .descricao-box {
+        background: #f9fafb;
+        border-radius: 8px;
+        padding: 16px;
+        font-size: 14px;
+        color: #374151;
+        line-height: 1.7;
+        margin-bottom: 24px;
+    }
+
+    .descricao-vazia {
+        color: #9ca3af;
+        font-style: italic;
+    }
+
+    .produto-img {
+        width: 100%;
+        max-height: 280px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+        margin-bottom: 24px;
+    }
+
+    .form-footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        padding-top: 20px;
+        border-top: 1px solid #e5e7eb;
+    }
+
+    .btn-voltar {
+        padding: 9px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        background: transparent;
+        color: #6b7280;
+        text-decoration: none;
+    }
+
+        .btn-voltar:hover {
+            background: #f9fafb;
+        }
+
+    .btn-editar {
+        padding: 9px 24px;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        background: #185FA5;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .btn-editar:hover {
+            background: #042C53;
+            color: #fff;
+        }
+</style>
+
+<div class="page-header">
+    @Html.ActionLink("← Voltar", "Index", null, new { @class = "back-btn" })
+    <span class="page-title">Detalhes do Produto</span>
+</div>
+
+<div class="detail-card">
+
+    @if (!string.IsNullOrEmpty(Model.Imagem))
+    {
+        <img src="/Content/Imagens/@Model.Imagem" class="produto-img" alt="@Model.Nome" />
+    }
+
+    <p class="section-label">Informações básicas</p>
+
+    <div class="detail-grid">
+        <div class="detail-item" style="grid-column: span 2;">
+            <div class="detail-label">Nome</div>
+            <div class="detail-value">@Model.Nome</div>
+        </div>
+        <div class="detail-item">
+            <div class="detail-label">Preço</div>
+            <div class="detail-value preco">R$ @Model.Preco.ToString("F2")</div>
+        </div>
+        <div class="detail-item">
+            <div class="detail-label">Quantidade em estoque</div>
+            <div class="detail-value estoque">@Model.Quantidade unidades</div>
+        </div>
+    </div>
+
+    <p class="section-label">Detalhes do produto</p>
+
+    <div class="detail-grid">
+        <div class="detail-item">
+            <div class="detail-label">Tamanho</div>
+            <div class="detail-value">
+                @if (!string.IsNullOrEmpty(Model.Tamanho))
+                {@Model.Tamanho }
+            else
+            { <span class="descricao-vazia">Não informado</span>}
+            </div>
+        </div>
+        <div class="detail-item">
+            <div class="detail-label">Peso</div>
+            <div class="detail-value">
+                @if (!string.IsNullOrEmpty(Model.Peso))
+                {@Model.Peso }
+            else
+            { <span class="descricao-vazia">Não informado</span>}
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-label" style="margin-bottom: 8px;">Descrição</div>
+    <div class="descricao-box">
+        @if (!string.IsNullOrEmpty(Model.Descricao))
+        {@Model.Descricao }
+    else
+    { <span class="descricao-vazia">Nenhuma descrição informada.</span>}
+    </div>
+
+    <div class="form-footer">
+        @Html.ActionLink("Voltar", "Index", null, new { @class = "btn-voltar" })
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn-editar" })
+    </div>
+</div>
